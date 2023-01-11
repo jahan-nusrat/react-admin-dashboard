@@ -1,11 +1,8 @@
-import React from 'react';
+import React from "react";
+import "./App.css";
 
 const App = () => {
-  return (
-    <div>
-      Hello World
-    </div>
-  )
-}
+  return <h1 className="underline text-3xl">Hello World</h1>;
+};
 
-export default App
+export default App;
